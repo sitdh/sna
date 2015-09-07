@@ -1,19 +1,21 @@
-class ApplicationDatamodel:
+import ApplicationDataModel
+
+class TwitterDataModel(ApplicationDatamodel):
     def __init__(self):
         pass
 
     @property
     def app_id(self):
-        pass
+        return 'APP_ID'
 
     @property
     def app_secret(self):
-        pass
+        return 'APP_SECRET'
 
     @property
     def oauth_token(self):
-        pass
+        return 'OAUTH_TOKEN'
 
     @property
     def oauth_secret(self):
-        pass
+        return 'OAUTH_SECRET'
